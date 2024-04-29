@@ -5,7 +5,7 @@ import { ZodError } from "zod";
 import { auth} from "@clerk/nextjs";
 
 export const runtime = "nodejs";
-export const maxDuration = 500;
+export const maxDuration = 9;
 
 export async function POST(req: Request, res: Response) {
   try {
